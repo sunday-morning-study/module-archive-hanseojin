@@ -2,8 +2,8 @@ package com.ksh.hexagonalarchitecture.service;
 
 import com.ksh.hexagonalarchitecture.domain.*;
 import com.ksh.hexagonalarchitecture.domain.item.Item;
-import com.ksh.hexagonalarchitecture.repository.ItemRepository;
-import com.ksh.hexagonalarchitecture.repository.MemberRepository;
+import com.ksh.hexagonalarchitecture.adapter.out.persistence.ItemRepository;
+import com.ksh.hexagonalarchitecture.adapter.out.persistence.MemberRepository;
 import com.ksh.hexagonalarchitecture.repository.OrderRepository;
 import com.ksh.hexagonalarchitecture.repository.OrderSearch;
 import lombok.RequiredArgsConstructor;

@@ -1,8 +1,9 @@
-package com.ksh.hexagonalarchitecture.controller;
+package com.ksh.hexagonalarchitecture.adapter.in.web;
 
+import com.ksh.hexagonalarchitecture.controller.BookForm;
 import com.ksh.hexagonalarchitecture.domain.item.Book;
 import com.ksh.hexagonalarchitecture.domain.item.Item;
-import com.ksh.hexagonalarchitecture.service.ItemService;
+import com.ksh.hexagonalarchitecture.application.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

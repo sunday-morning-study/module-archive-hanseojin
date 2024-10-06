@@ -1,4 +1,4 @@
-package com.ksh.hexagonalarchitecture.repository;
+package com.ksh.hexagonalarchitecture.adapter.out.persistence;
 
 import com.ksh.hexagonalarchitecture.domain.item.Item;
 import jakarta.persistence.EntityManager;
